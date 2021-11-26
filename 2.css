@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand',sans-serif;
+}
+
+html,body{
+    margin: 0;
+}
+.fullscreen{
+    background-image: url("https://th.bing.com/th/id/R.fc1ea0c1f7b010369e7fe0401ed9ac35?rik=7GSZMYFbvxC0yQ&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f6%2f2%2ff%2f126529.jpg&ehk=KbET%2fZStKI7eAUn96dsYjlZhHrGy1xxY4mZtjUUptY0%3d&risl=&pid=ImgRaw&r=0");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: hsla(201,100%,6%,0.6);
+    padding:50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+}
+.loginh{
+    color: seashell;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+.inputg{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.inputg label{
+    color: skyblue;
+    font-weight: lighter ;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.inputg input{
+    font-size: 1.5em;
+    padding: .1em .25em;
+    background-color: hsla(201,100%,91%,0.3);
+    border: 1px solid hsla(201,100%,6%);
+    outline: none;
+    border-radius: 5px;
+    color: snow;
+    font-weight: lighter;
+}
+.inputg input:focus{
+    border: 1px solid hsla(201,100%,50%);
+}
+.login-button{
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: hsla(201,100%,50%,0.1) ;
+    border: 1px solid hsla(201,100%,50%);
+    outline: none;
+    font-size: 1.5em;
+    color: snow;
+    font-weight: lighter;
+    cursor:pointer;
+}
+.login-button:hover{
+    background-color: hsla(201,100%,50%,0.3) ;
+}
+
+.login-button:focus{
+    background-color: hsla(201,100%,50%,0.5) ;
+}
